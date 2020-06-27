@@ -1,0 +1,374 @@
+/* Befor Do My FrameWork Line Is 537 */ 
+
+/* After Do My FrameWork Line Is 376*/ 
+
+body {font-family: 'Roboto', sans-serif}
+
+.container {width: 1300px;margin: auto}
+
+.flexable {clear: both}
+
+/* Start header */
+
+.header .navigation {overflow: hidden;padding-bottom: 25px}
+
+.header .navigation .navbar {
+    overflow: hidden;
+    background: #fff;
+    color: #000;
+    padding-top: 20px;
+    padding-bottom: 15px
+}
+
+.header .navigation .navbar h1 {
+    float: left; 
+    margin: 0 ;
+    letter-spacing: .7;
+    text-transform: uppercase;
+    color: #00000099
+}
+
+.header .navigation .navbar ul {
+    float: right;
+    list-style: none;
+    margin: 0 ;
+    margin-top: 5px
+}
+
+.header .navigation .navbar ul li {
+    float: left;
+    margin-right: 15px;
+    font-size: 19px;
+    color: #6c6c6c;
+    letter-spacing: .7;
+    text-transform: capitalize;
+    cursor: pointer
+}
+
+.header .navigation .navbar ul li button {
+    padding: 5px 25px;
+    background: #44b2f6;
+    border: none;
+    color: #fff;
+    position: relative;
+    top: -6px;
+    right: 0px
+}
+
+.header .navigation .content {
+    position: relative;
+    background-image: url(../image/slider1.jpg);
+    background-size: cover;
+    min-height: 547px;   
+    display: block
+}
+
+.header .navigation .content:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.7)
+}
+
+.header .navigation .content .container {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: inline-block;
+    margin: 100px auto;
+    z-index: 1
+}
+
+.header .navigation .content .container h2 {
+    text-transform: uppercase;
+    letter-spacing: 3;
+    word-spacing: 5px;
+    font-size: 47px;
+    color: #fff
+}
+
+.header .navigation .content .container p {
+    padding: 15px 0;
+    font-size: 25px;
+    color: #fff;
+    text-transform: capitalize
+}
+
+.header .navigation .content .container button {
+    padding: 10px 0;
+    width: 160px;
+    color: #fff;
+    background-color: #81818166;
+    margin: 15px
+}
+
+.header .navigation .content .container button:last-of-type {
+  background-color: rgba(255 ,255, 255, .2)
+}
+
+.header .navigation .content .container button:first-of-type {
+    background: #387ff2;
+    border: none  
+}
+
+/* End header */
+
+/* Start image */
+
+.header .icons-info {overflow: hidden;padding-bottom: 20px}
+
+.header .icons-info .info {text-align: center; padding: 20px 0}
+
+.header .icons-info .info h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 5;
+    word-spacing: 3;
+    color: #838383
+}
+
+.header .icons-info .info p {font-size: 20px}
+
+.header .icons-info .info-img {width: 80%;overflow: hidden;margin: 50px auto}
+
+.header .icons-info .ico-para {
+    width: 28.33330%;
+    float: left;
+    overflow: hidden;
+    margin-right: 40px;
+    text-align: center;
+    padding-top: 30px;
+    border-radius: 7px;
+    border: 2px solid #27272729
+}
+
+.header .icons-info .ico-para .fa {
+    font-size: 61px;
+    color: #fff;
+    background-color: #328fe8;
+    border-radius: 100%;
+    line-height: 1.6;
+    width: 105px;
+    height: 105px;
+    padding: 5px;
+    box-shadow: 0 0 0 7px #fefefe,
+                0 0 0 11px rgba(0, 0, 0, 0.16)
+}
+
+.header .icons-info .ico-para h3 {font-size: 23px;padding-top: 25px;color: #838383}
+
+.header .icons-info .ico-para p {padding: 10px 28px}
+
+/* End image */
+
+/* Start x-gallary */
+
+.header .x-gallary {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    background: #192024;
+    color: #c5c7c8
+}
+
+.header .x-gallary  h2 {font-size: 33px;padding-top: 25px;color: #e1dfdf}
+
+.header .x-gallary .container > p {font-size: 24px}
+
+.header .x-gallary .y-gallary {width: 50%;float: left}
+
+.header .x-gallary .y-gallary img {
+    width: 90%;
+    height: 40%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 4px;
+    background: #b0afaf;
+    border: 1px solid #b2b2b2
+}
+
+.header .x-gallary .y-gallary h3 {padding-top: 15px;color:#e1dfdf}
+
+.header .x-gallary .y-gallary p {font-size: 16px; margin: 30px;color: #a6a5a5}
+
+ .header .x-gallary .y-gallary button {
+    padding: 9px 30px;
+    background: transparent;
+    color:#c5c7c8;
+    margin-bottom: 25px
+}
+
+.header .x-gallary .y-gallary button:hover {background-color: rgba(255,255,255,.2)}
+
+/* End x gallary */
+
+/* Start row */
+
+.header .row {overflow: hidden;padding-top: 20px;padding-bottom: 20px}
+
+.header .row .row-one {width: 55%; float: left; margin-left: 50px}
+
+.header .row .row-one h2,
+.header .row .row-tow h2 {
+    font-size: 29px;
+    padding-top: 20px;
+    color: #7a7878
+}
+
+.header .row .row-one img {
+    width: 90%;
+    height: 75%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 4px;
+    background: #fff9f9;
+    border: 1px solid #d7d4d4
+}
+
+.header .row .row-one p,
+.header .row .row-tow p {
+    font-size: 17px;
+    word-spacing: 1px;
+    margin: 30px 0;
+    width: 93%;
+    text-align: left
+}
+
+.header .row .row-tow {
+    width :30%;
+    float :left;
+    margin-right :20px;
+    margin-left :110px
+}
+
+.header .row .row-tow p {padding-top: 10px}
+
+.header .row .row-tow  button {
+    padding: 9px 30px;
+    border: 1px solid;
+    background: transparent;
+    color: #8b8b8b;
+    margin-bottom: 25px
+}
+
+.header .row .row-tow  button:hover {background-color: rgba(150,150,150,.1)}
+
+.header .row .row-tow hr {
+    border: none;
+    height: .7px;
+    width: 68%;
+    background: #d7d5d5;
+    margin: 17px 0
+}
+
+.header .row .row-tow a {
+    font-size: 17px;
+    word-spacing: 3px;
+    letter-spacing: .5;
+    text-decoration: none;
+    color: #579cd0
+}
+
+.header .row .row-tow a:hover {text-decoration: underline;color: blue}
+
+/* End row */
+
+/* Start links */
+
+.footer {
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: #f8f8f8
+}
+
+.footer .links-all {float: left;width: 70%}
+
+.footer .links-all .links-all-one {width: 50%; float: left}
+
+.footer .links-all .links-all-one h2 {font-size :24px;padding-top :20px;color :#7a7878}
+
+.footer .links-all .links-all-one hr {
+    border: none;
+    height: .7px;
+    width: 60%;
+    background: #d7d5d5;
+    margin: 19px 0
+}
+
+.footer .links-all .links-all-one a {
+    font-size :17px;
+    word-spacing :3px;
+    letter-spacing :.5;
+    text-decoration :none;
+    color :#579cd0
+}
+
+.footer .links-all .links-all-one a:hover {text-decoration :underline;color :blue}
+
+.footer .links-info {width :30%; float :left}
+
+.footer .links-info h2 { font-size :24px;padding-top :20px;color :#7a7878}
+
+.footer .links-info  p {font-size :17px;margin :25px 0;width :93%}
+
+.footer .links-info  ul {list-style :none;padding :0}
+
+.footer .links-info  ul li {display :inline-block;margin-right :30px}
+
+.footer .links-info  ul li .fa {color :#727272;font-size :28px;cursor :pointer}
+
+.footer .links-info  ul li .fa:hover {color :#5a5a5a}
+
+.footer .copyRight {margin: auto; width: 50%;padding: 60px 0}
+
+.footer .copyRight ul {list-style: none;position: relative}
+
+.footer .copyRight ul li {display: inline;margin: 20px;color: #848484}
+
+.footer .copyRight ul li:after {
+    content: "";
+    position: absolute;
+    height: 22px;
+    width: 1.5px;
+    background: #999999;
+    margin: 5px;
+    margin: 0px 19px
+}
+
+.footer .copyRight ul li:last-of-type:after {content :"";width :0}
+
+.footer .copyRight ul li a {color: #848484;text-decoration: none}
+
+.footer .copyRight ul li a:hover {text-decoration: underline;color: blue}
+
+/* End links */
+
+/***** Start My FrameWork *****/
+
+.head-sp {letter-spacing: 2;word-spacing: 2;  text-transform: uppercase}
+
+.all-Pragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #848484
+}
+
+.specil-button {
+    border: 1px solid #004060;
+    background: transparent;
+    border-radius: 5px;
+    color: #c5c7c8;
+    cursor: pointer;
+    outline: transparent;
+    font-size: 22px
+}
+
+/****** Start My FrameWork *****/
